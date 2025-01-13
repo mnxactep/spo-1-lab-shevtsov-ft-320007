@@ -12,4 +12,4 @@ PyCharm Community Edition 2024.1.1 ; Python
 
 ![Тест_программы](Test_py_.jpg)
 
-Хеш- пароли в файле passwords.txt
+Хеш - пароли в файле passwords.txt
