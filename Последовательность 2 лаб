@@ -1,1 +1,17 @@
+# Последовательность для второго задания
 
+1. Скачиваем docker desktop и регистрируемся в нём через github
+2. Открытие wsl и копирование тудаследующей команды: git clone "https://github.com/ilnarisrisov/lub_10.git"
+3. Переход в папку, куда был склонирован репозиторий: cd /home/user/lub_10
+4. Создание в этой папке файла без расширения под названием Dockerfile
+5. Заполнение файла в режиме блокнота следующим содержимым:
+
+FROM python:3.9-slim
+WORKDIR /app
+COPY . /app
+CMD ["python", "Лабораторная 10, Идрисов.py"]
+
+6. Вставить в wsl следующую команду: docker build -t lub_10_image .
+7. Запуск контейнера: docker run -it --name lub_10_container lub_10_image
+8. Игра запустилась
+9. Когда наигрались, останавливаем контейнер: docker stop lub_10_container
