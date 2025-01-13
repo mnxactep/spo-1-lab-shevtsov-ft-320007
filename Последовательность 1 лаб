@@ -2,7 +2,7 @@
 
 1. Запустить wsl
 2. Ввести следующие команды:
-git clone https://github.com/ilnarisrisov/lub_10.git
+git clone https://github.com/mnxactep/spo-1-lab-shevtsov-ft-320007
 pwd
 cd spo-1-lab-shevtsov-ft-320007
 nano game.py
