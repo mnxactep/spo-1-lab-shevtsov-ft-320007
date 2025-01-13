@@ -9,6 +9,7 @@ PyCharm Community Edition 2024.1.1 ; Python
 
 # Тест
 Длина пароля 5 символов, количество паролей 5
+
 ![Тест_программы](Test_py_.jpg)
 
 Хеш- пароли в файле passwords.txt
