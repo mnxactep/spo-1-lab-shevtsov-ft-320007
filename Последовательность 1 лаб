@@ -1,7 +1,7 @@
 # Последовательность выполнения
 
-1. Запустить wsl
-2. Ввести следующие команды:
+1. Запускаем wsl
+2. Вводим следующие команды:
 git clone https://github.com/mnxactep/spo-1-lab-shevtsov-ft-320007
 cd spo-1-lab-shevtsov-ft-320007
 python3 passwords_generate.py
