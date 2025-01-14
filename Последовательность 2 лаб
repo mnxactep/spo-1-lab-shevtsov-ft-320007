@@ -3,13 +3,13 @@
 1. Скачиваем docker desktop и регистрируемся в нём через github
 2. Открываем wsl и копируем туда файлы с гита с помощью следующей команды: git clone https://github.com/mnxactep/spo-1-lab-shevtsov-ft-320007
 3. Переходим в папку, куда был скопирован репозиторий: cd spo-1-lab-shevtsov-ft-320007
-4. Создание в этой папке файла без расширения под названием Dockerfile
+4. Создаём в этой папке файла без расширения под названием Dockerfile с помощью команды touch Dockerfile
 5. Заполнение файла в режиме блокнота следующим содержимым:
 
 FROM python:3.9-slim
 WORKDIR /app
 COPY . /app
-CMD ["python", "Лабораторная 10, Идрисов.py"]
+CMD ["python", "Dockerfile"]
 
 6. Вставить в wsl следующую команду: docker build -t lub_10_image .
 7. Запуск контейнера: docker run -it --name lub_10_container lub_10_image
