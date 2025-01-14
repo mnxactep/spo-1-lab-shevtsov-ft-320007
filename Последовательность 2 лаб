@@ -4,14 +4,14 @@
 2. Открываем wsl и копируем туда файлы с гита с помощью следующей команды: git clone https://github.com/mnxactep/spo-1-lab-shevtsov-ft-320007
 3. Переходим в папку, куда был скопирован репозиторий: cd spo-1-lab-shevtsov-ft-320007
 4. Создаём в этой папке файла без расширения под названием Dockerfile с помощью команды touch Dockerfile
-5. Заполнение файла в режиме блокнота следующим содержимым:
+5. Открывваем этот файл с помощью команды nano Dockerfile в режиме блокнота и заполняем следующим текстом:
 
 FROM python:3.9-slim
 WORKDIR /app
 COPY . /app
 CMD ["python", "passwords_generate.py"]
-
-6. Вставить в wsl следующую команду: docker build -t lub_10_image .
-7. Запуск контейнера: docker run -it --name lub_10_container lub_10_image
-8. Игра запустилась
-9. Когда наигрались, останавливаем контейнер: docker stop lub_10_container
+6. Закрываем файл с помощью Cntrl + x , y, Enter
+7. Вставляем в строку следующую команду: docker build -t lub_1_image .
+8. Запускаем контейнер: docker run -it --name lub_1_container lub_1_image
+9. Приложение запустилось
+10. Когда приложение завершило свою работу, останавливаем контейнер: docker stop lub_1_container
